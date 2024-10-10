@@ -5,11 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a90ed6-ae34-4c86-97c1-d263470fcf36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client_backup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/next-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/next.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/i9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p10.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p11.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p12.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p13.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p5.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p6.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/p9.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/(components)/Navbar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/(components)/Sidebar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/dashboardWrapper.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/fonts/GeistMonoVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/app/redux.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/state/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/src/state/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +136,7 @@
       <workItem from="1728455098201" duration="60000" />
       <workItem from="1728455166001" duration="2282000" />
       <workItem from="1728599105594" duration="145000" />
-      <workItem from="1728599268905" duration="26000" />
+      <workItem from="1728599268905" duration="510000" />
     </task>
     <servers />
   </component>
