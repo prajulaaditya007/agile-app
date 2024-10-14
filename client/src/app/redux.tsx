@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import {combineReducers, configureStore } from "@reduxjs/toolkit";
 import { Provider, TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import globalReducer from "@/state";
 import { api } from "@/state/api";

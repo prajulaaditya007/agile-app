@@ -5,59 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a90ed6-ae34-4c86-97c1-d263470fcf36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Header/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/next-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/next.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/i9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p10.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p11.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p12.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p13.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p8.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/p9.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/(components)/Navbar/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/(components)/Sidebar/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/dashboardWrapper.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/fonts/GeistMonoVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/fonts/GeistVF.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/app/redux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/state/api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/src/state/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/tailwind.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/app-build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/cache/images/IHYKG8whTyXkF4eCrJh+HJnfbO4eJrusvB+2tqV31NQ=/60.1728599782427.PXp1MkrwEUdQkkB1OnDQfP9B-cMftg9-k-fbSj0I1u4=.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/app/favicon.ico/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/@reduxjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/lucide-react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/node_modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/react-redux.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/redux-persist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/app/layout.d5fca4a2805c8447.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/d5fca4a2805c8447.webpack.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/webpack.d5fca4a2805c8447.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/trace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/(components)/Navbar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/(components)/Sidebar/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/redux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/redux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/controllers/taskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/controllers/taskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/routes/taskRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/routes/taskRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/taskController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/taskController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +75,9 @@
     &quot;accountId&quot;: &quot;fc7b349b-c514-4b51-a7dd-e4884322e860&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/client/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -85,30 +89,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/prajulsahu/Developer/next-app-agile&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/prajulsahu/Developer/next-app-agile/server/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/prajulsahu/Developer/next-app-agile/client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Users/prajulsahu/Developer/next-app-agile/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;DotEnv&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "DotEnv"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -136,7 +147,7 @@
       <workItem from="1728455098201" duration="60000" />
       <workItem from="1728455166001" duration="2282000" />
       <workItem from="1728599105594" duration="145000" />
-      <workItem from="1728599268905" duration="510000" />
+      <workItem from="1728599268905" duration="24214000" />
     </task>
     <servers />
   </component>
