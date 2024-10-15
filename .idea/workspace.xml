@@ -1,52 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a90ed6-ae34-4c86-97c1-d263470fcf36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/app-build-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/cache/images/IHYKG8whTyXkF4eCrJh+HJnfbO4eJrusvB+2tqV31NQ=/60.1728599782427.PXp1MkrwEUdQkkB1OnDQfP9B-cMftg9-k-fbSj0I1u4=.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/app/favicon.ico/route.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/@reduxjs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/lucide-react.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/node_modules.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/react-redux.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/redux-persist.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/app/layout.d5fca4a2805c8447.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/d5fca4a2805c8447.webpack.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/webpack.d5fca4a2805c8447.hot-update.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/trace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/(components)/Navbar/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/(components)/Sidebar/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/dashboardWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/app/redux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/redux.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/src/controllers/taskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/controllers/taskController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/src/routes/taskRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/routes/taskRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/controllers/taskController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/taskController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/types/app/layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/types/app/layout.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/types/app/page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/types/app/page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/controllers/ProjectController.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,20 +70,26 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "com.codeium.enabled": "true",
     "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "javascript.nodejs.core.library.configured.version": "20.15.0",
+    "javascript.nodejs.core.library.typings.version": "20.15.0",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/prajulsahu/Developer/next-app-agile/client",
+    "last_opened_file_path": "/home/neovault/Development/agile-app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "/Users/prajulsahu/Developer/next-app-agile/client/node_modules/typescript/lib",
+    "nodejs_interpreter_path": "/home/neovault/.local/share/mise/installs/node/lts/bin/node",
+    "nodejs_package_manager_path": "pnpm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "/home/neovault/Development/agile-app/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -123,7 +106,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.19072.23" />
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
       </set>
     </attachedChunks>
   </component>
@@ -153,5 +137,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

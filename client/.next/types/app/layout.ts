@@ -1,4 +1,4 @@
-// File: /Users/prajulsahu/Developer/next-app-agile/client/src/app/layout.tsx
+// File: /home/neovault/Development/agile-app/client/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
