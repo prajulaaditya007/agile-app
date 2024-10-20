@@ -5,25 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a90ed6-ae34-4c86-97c1-d263470fcf36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/BoardView/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/app-build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/app-build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/trace" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/trace" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/types/app/layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/types/app/layout.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/.next/types/app/page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/.next/types/app/page.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/src/controllers/ProjectController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
     "nodejs_interpreter_path": "/home/neovault/.local/share/mise/installs/node/lts/bin/node",
     "nodejs_package_manager_path": "pnpm",
     "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "/home/neovault/Development/agile-app/client/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/prajulsahu/Developer/next-app-agile/client/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
