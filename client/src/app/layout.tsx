@@ -1,6 +1,7 @@
 import "./globals.css";
 import React from "react";
 import DashboardWrapper from "@/app/dashboardWrapper";
+import ErrorBoundary from "@/components/ErrorBoundary";
 
 export default function RootLayout({
   children,
@@ -10,7 +11,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <DashboardWrapper>{children}</DashboardWrapper>
+      <ErrorBoundary>
+          <DashboardWrapper>{children}</DashboardWrapper>
+      </ErrorBoundary>
       </body>
     </html>
   );
