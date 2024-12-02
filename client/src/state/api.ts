@@ -82,6 +82,14 @@ export const api = createApi({
             invalidatesTags: ["Projects"]
         }),
         
+        deleteProject : build.mutation<Project, {id: number}>({
+            query: ({ id }) => ({
+                url: `/projects/${id}`,
+                method: "DELETE"
+            }),
+            invalidatesTags: ["Projects"]
+        }),
+        
         getTasks: build.query<Task[], { projectId: number }>({
             query: ({ projectId }) => ({
                 url: `/tasks?projectId=${projectId}`,
@@ -112,4 +120,4 @@ export const api = createApi({
     })
 });
 
-export const { useGetProjectsQuery, useCreateProjectMutation, useGetTasksQuery, useCreateTaskMutation, useUpdateTaskStatusMutation } = api;
+export const { useGetProjectsQuery, useCreateProjectMutation, useGetTasksQuery, useCreateTaskMutation, useDeleteProjectMutation, useUpdateTaskStatusMutation } = api;

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Header from "@/components/Header";
-import { Clock, Filter, Grid3X3, List, PlusSquare, Share2, Table } from "lucide-react";
+import { Clock, Delete, Filter, Grid3X3, List, PlusSquare, Share2, Table } from "lucide-react";
 import ModalNewProject from "@/app/projects/ModalNewProject";
+import ModalDeleteProject from "@/app/projects/ModalDeleteProject";
 
 type Props = {
     activeTab: string;
@@ -9,9 +10,10 @@ type Props = {
 };
 
 
-
 const ProjectHeader = ({ activeTab, setActiveTab }: Props) => {
     const [isModalNewProjectOpen, setIsModalNewProjectOpen] = useState(false);
+    const [isModalDeleteProjectOpen, setIsModalDeleteProjectOpen] = useState(false);
+    
     return (
         <div className={`px-4 xl:px-6`}>
             {/*  MODAL NEW PROJECT  */}
@@ -20,15 +22,31 @@ const ProjectHeader = ({ activeTab, setActiveTab }: Props) => {
                 onClose={() => setIsModalNewProjectOpen(false)}
             />
             
+            <ModalDeleteProject
+                isOpen={isModalDeleteProjectOpen}
+                onClose={() => setIsModalDeleteProjectOpen(false)}
+            />
+            
             <div className="pb-6 pt-6 lg:pb-4 lg:pt-8">
                 <Header name={`Product Design Development`}
                         buttonComponent={
-                            <button
-                                className="flex items-center rounded-md bg-blue-primary px-3 py-2 text-white hover:bg-blue-600"
-                                onClick={() => setIsModalNewProjectOpen(true)}
-                            >
-                                <PlusSquare className="mr-2 h-5 w-5" /> New Boards
-                            </button>
+                            <>
+                                <button
+                                    className="flex items-center rounded-md bg-blue-primary px-3 py-2 text-white hover:bg-blue-600"
+                                    onClick={() => setIsModalNewProjectOpen(true)}
+                                >
+                                    <PlusSquare className="mr-2 h-5 w-5" /> New Boards
+                                </button>
+                                <button
+                                    className="flex items-center gap-2 rounded-md bg-red-500 px-3 py-2 text-white hover:bg-red-600"
+                                    onClick={() => setIsModalDeleteProjectOpen(true)}
+                                >
+                                    <Delete className="h-5 w-5" />
+                                    Delete Board
+                                </button>
+                            
+                            </>
+                            
                         }
                 />
             </div>
@@ -92,16 +110,17 @@ type TabButtonProps = {
 
 const TabButton = ({ name, icon, setActiveTab, activeTab }: TabButtonProps) => {
     const isActive = activeTab === name;
-    return (
-        <button
-            className={`relative flex items-center gap-2 px-1 py-2 text-gray-500 after:absolute after:-bottom-[9px] after:left-0 after:h-[1px] after:w-full hover:text-blue-600 dark:text-neutral-500 dark:hover:text-white sm:px-2 lg:px-4 ${
-                isActive ? "text-blue-600 after:bg-blue-600 dark:text-white" : ""
-            }`}
-            onClick={() => setActiveTab(name)}
-        >
-            {icon}
-            {name}
-        </button>
+    return (<>
+            <button
+                className={`relative flex items-center gap-2 px-1 py-2 text-gray-500 after:absolute after:-bottom-[9px] after:left-0 after:h-[1px] after:w-full hover:text-blue-600 dark:text-neutral-500 dark:hover:text-white sm:px-2 lg:px-4 ${
+                    isActive ? "text-blue-600 after:bg-blue-600 dark:text-white" : ""
+                }`}
+                onClick={() => setActiveTab(name)}
+            >
+                {icon}
+                {name}
+            </button>
+        </>
     );
 };
 

@@ -5,37 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a90ed6-ae34-4c86-97c1-d263470fcf36" name="Changes" comment="new changes">
+      <change afterPath="$PROJECT_DIR$/client/src/app/projects/ModalDeleteProject/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/app-build-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/build-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/react-loadable-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/app-paths-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/app/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/app/page_client-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/interception-route-rewrite-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/middleware-build-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/middleware-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/middleware-react-loadable-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/next-font-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/next-font-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/pages-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/server-reference-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/vendor-chunks/next@14.2.14_react-dom@18.3.1_react@18.3.1__react@18.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/server/webpack-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app-pages-internals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/app/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/main-app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/chunks/webpack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/css/app/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/development/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/development/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/static/webpack/633457081244afec._.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/trace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/types/app/layout.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.next/types/app/page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/projects/ModalNewProject/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/ModalNewProject/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/ProjectHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/projects/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/controllers/projectController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/controllers/projectController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/routes/projectRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/routes/projectRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/projectController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/projectController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/projectRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/projectRoutes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +81,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/prajulsahu/Developer/next-app-agile/client/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -149,7 +130,7 @@
       <workItem from="1729430175341" duration="52242000" />
       <workItem from="1731161215613" duration="2413000" />
       <workItem from="1732138014398" duration="47000" />
-      <workItem from="1732138070616" duration="1394000" />
+      <workItem from="1732138070616" duration="44352000" />
     </task>
     <task id="LOCAL-00001" summary="new changes">
       <option name="closed" value="true" />

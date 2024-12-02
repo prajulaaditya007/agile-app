@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import ProjectHeader from "@/app/projects/ProjectHeader";
 import Board from "@/app/projects/BoardView";
 import Timeline from "@/app/projects/TimelineView";
@@ -16,9 +16,15 @@ const Project = ({ params }: Props) => {
     const { id } = params;
     const [activeTab, setActiveTab] = useState("Board");
     const [isModalNewTaskOpen, setIsModalNewTaskOpen] = useState(false);
+    
     return (
         <div>
             {/* MODAL NEW TASK */}
+            {/*<ModalNewTask*/}
+            {/*isOpen={isModalNewTaskOpen}*/}
+            {/*onClose={() => setIsModalNewTaskOpen(false)}*/}
+            {/*/>            */}
+            
             <ProjectHeader activeTab={activeTab} setActiveTab={setActiveTab} />
             {activeTab === "Board" &&
                 (
@@ -36,6 +42,7 @@ const Project = ({ params }: Props) => {
                 (
                     <Table id={id} setIsModalNewTaskOpen={setIsModalNewTaskOpen} />
                 )}
+
         </div>
     );
 };
