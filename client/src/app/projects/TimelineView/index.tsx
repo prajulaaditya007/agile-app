@@ -47,7 +47,7 @@ const Timeline = ({ id, setIsModalNewTaskOpen }: Props) => {
     };
     
     if (isLoading) return <div>Loading...</div>;
-    if (error) return <div>An error occurred while fetching tasks.</div>;
+    if (error || !tasks) return <div>An error occurred while fetching tasks.</div>;
     
     return (
         <div className={`px-4 xl:px-6`}>
