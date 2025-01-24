@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a90ed6-ae34-4c86-97c1-d263470fcf36" name="Changes" comment="new changes">
-      <change afterPath="$PROJECT_DIR$/client/src/app/search/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/settings/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/teams/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/app/users/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ProjectCard/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UserCard/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/teamControllers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/controllers/userController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/teamRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/routes/userRoutes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/priority/backlog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/priority/critical/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/priority/high/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/priority/low/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/priority/medium/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/priority/reusablePriorityPage/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/state/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/state/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dist/src/routes/searchRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/routes/searchRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/searchRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/searchRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/controllers/taskController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/controllers/taskController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/dist/src/routes/taskRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/dist/src/routes/taskRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/controllers/taskController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/controllers/taskController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/taskRoutes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -138,7 +133,8 @@
       <workItem from="1732138014398" duration="47000" />
       <workItem from="1732138070616" duration="59468000" />
       <workItem from="1734194715670" duration="15000" />
-      <workItem from="1734194736832" duration="22419000" />
+      <workItem from="1734194736832" duration="34569000" />
+      <workItem from="1737525429305" duration="3306000" />
     </task>
     <task id="LOCAL-00001" summary="new changes">
       <option name="closed" value="true" />
@@ -181,6 +177,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new changes" />
     <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>

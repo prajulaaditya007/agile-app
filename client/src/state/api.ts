@@ -13,7 +13,7 @@ export enum Priority {
     high = "High",
     medium = "Medium",
     low = "Low",
-    backlog = "Backlog"
+    backlog = "Backlog",
 }
 
 export enum Status {
@@ -75,7 +75,7 @@ export interface Team {
 export const api = createApi({
     baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL }),
     reducerPath: "api",
-    tagTypes: ["Projects", "Tasks", "Users","Teams"],
+    tagTypes: ["Projects", "Tasks", "Users", "Teams"],
     endpoints: (build) => ({
         getProjects: build.query<Project[], void>({
             query: () => ({
@@ -110,6 +110,14 @@ export const api = createApi({
             providesTags: (result) => result ? result.map(({ id }) => ({
                 type: "Tasks" as const, id
             })) : [{ type: "Tasks" as const }]
+        }),
+        
+        getTasksByUser: build.query<Task[], number>({
+            query: (userId) => `tasks/user/userId`,
+            providesTags: (result, error, userId) =>
+                result
+                    ? result.map(({ id }) => ({ type: "Tasks", id }))
+                    : [{ type: "Tasks", id: userId }]
         }),
         
         createTask: build.mutation<Task, Partial<Task>>({
@@ -154,5 +162,6 @@ export const {
     useUpdateTaskStatusMutation,
     useSearchQuery,
     useGetUsersQuery,
-    useGetTeamsQuery
+    useGetTeamsQuery,
+    useGetTasksByUserQuery
 } = api;
