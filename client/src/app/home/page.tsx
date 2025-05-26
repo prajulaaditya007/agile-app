@@ -58,7 +58,39 @@ const HomePage = () => {
     
     const statusCount = projects.reduce(
         (acc: Record<string, number>, project: Project) => {
-            const status = project.endDate ? "Completed" : "Active";
+            const now = new Date();
+            
+            const start = project.startDate ? new Date(project.startDate) : undefined;
+            const end = project.endDate ? new Date(project.endDate) : undefined;
+            
+            let status = "Unknown";
+            
+            if (start && end) {
+                const isSameDate = start.getTime() === end.getTime();
+                const isFuture = start > now && end > now;
+                const isInProgress = start <= now && end > now;
+                const isCompleted = end <= now;
+                
+                if (isSameDate) {
+                    status = end > now ? "Active" : "Completed";
+                } else if (isFuture) {
+                    status = "Active";
+                } else if (isInProgress) {
+                    status = "In Progress";
+                } else if (isCompleted) {
+                    status = "Completed";
+                }
+            } else {
+                // Fallbacks if start or end is missing
+                if (!start && end) {
+                    status = end > now ? "Active" : "Completed";
+                } else if (start && !end) {
+                    status = start > now ? "Active" : "In Progress";
+                } else {
+                    status = "Active";
+                }
+            }
+            
             acc[status] = (acc[status] || 0) + 1;
             return acc;
         },
@@ -69,6 +101,8 @@ const HomePage = () => {
         name: key,
         count: statusCount[key]
     }));
+    
+    
     
     const chartColors = isDarkMode
         ? {
