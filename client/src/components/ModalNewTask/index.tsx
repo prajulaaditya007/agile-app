@@ -39,7 +39,7 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
             dueDate: formattedDueDate,
             authorUserId: parseInt(authorUserId),
             assignedUserId: parseInt(assignedUserId),
-            projectId: id !== null ? Number(id): Number(projectId),
+            projectId: id !== null ? Number(id) : Number(projectId)
         }).unwrap();
         
         setTitle("");
@@ -109,7 +109,7 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
                         <option value={Priority.low}>Low</option>
                         <option value={Priority.medium}>Medium</option>
                         <option value={Priority.high}>High</option>
-                        <option value={Priority.critical}>Critical</option>
+                        <option value={Priority.urgent}>Urgent</option>
                     </select>
                 </div>
                 <input
@@ -165,7 +165,6 @@ const ModalNewTask = ({ isOpen, onClose, id = null }: Props) => {
                 >
                     {isLoading ? "Creating..." : "Create Task"}
                 </button>
-                {/*  5:17:36*/}
             </form>
         </Modal>
     );

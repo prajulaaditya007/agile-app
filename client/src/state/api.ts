@@ -9,7 +9,7 @@ export interface Project {
 }
 
 export enum Priority {
-    critical = "Critical",
+    urgent = "Urgent",
     high = "High",
     medium = "Medium",
     low = "Low",
